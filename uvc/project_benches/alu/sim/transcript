@@ -1,0 +1,378 @@
+# vsim -c -sv_seed random "+UVM_TESTNAME=test_top" -permit_unmatched_virtual_intf "+notimingchecks" -suppress 8887 -solvefaildebug -solvefailtestcase -uvmcontrol=none -printsimstats -do " coverage save -onexit test_top.ucdb; set IterationLimit 140000; set NoQuitOnFinish 1;   run -all; quit -f;" optimized_batch_top_tb 
+# Start time: 18:31:15 on May 14,2023
+# //  Questa Sim
+# //  Version 10.4e win32 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading work.uvmf_base_pkg_hdl(fast)
+# Loading work.alu_out_pkg_hdl(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.uvmf_base_pkg(fast)
+# Loading work.alu_out_pkg(fast)
+# Loading work.alu_in_pkg_hdl(fast)
+# Loading work.alu_in_pkg(fast)
+# Loading work.alu_env_pkg(fast)
+# Loading work.alu_parameters_pkg(fast)
+# Loading work.alu_sequences_pkg(fast)
+# Loading work.alu_tests_pkg(fast)
+# Loading work.hvl_top(fast)
+# Loading work.alu_out_if_sv_unit(fast)
+# Loading work.alu_in_if_sv_unit(fast)
+# Loading work.hdl_top(fast)
+# Loading work.alu_in_monitor_bfm_sv_unit(fast)
+# Loading work.alu_in_monitor_bfm(fast__1)
+# Loading work.alu_out_monitor_bfm_sv_unit(fast)
+# Loading work.alu_out_monitor_bfm(fast__1)
+# Loading work.alu_in_driver_bfm_sv_unit(fast)
+# Loading work.alu_in_driver_bfm(fast__1)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.alu_in_monitor_bfm(fast)
+# Loading work.alu_out_monitor_bfm(fast)
+# Loading work.alu_in_driver_bfm(fast)
+# Loading C:/questasim_10.4e/uvm-1.1d\win32\uvm_dpi.dll
+# Sv_Seed = 3933293426
+#  coverage save -onexit test_top.ucdb
+#  set IterationLimit 140000
+# 140000
+#  set NoQuitOnFinish 1
+# 1
+#    run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# ----------------------------------------------------------------
+# //  UVM Framework 
+# //  Version 2022.3
+# //  (C) 2013-2022 Siemens Corporation
+# //  Digital Industries Software
+# //  Siemens EDA
+# //  All Rights Reserved.
+# ----------------------------------------------------------------
+# 
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init()
+# UVM_INFO @ 0.000ns: reporter [RNTST] Running test test_top...
+# UVM_INFO @ 209.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 229.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 229.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x33c0 
+# UVM_INFO @ 229.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x4 a:0xc0 b:0x45 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 289.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x33c0 ACTUAL: result:0x33c0 
+# UVM_INFO @ 319.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 319.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0054 
+# UVM_INFO @ 319.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x7c b:0x57 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 379.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0054 ACTUAL: result:0x0054 
+# UVM_INFO @ 409.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 409.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x005f 
+# UVM_INFO @ 409.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0x85 b:0xda 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 469.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x005f ACTUAL: result:0x005f 
+# UVM_INFO @ 499.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 499.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0xcf7e 
+# UVM_INFO @ 499.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x4 a:0xe3 b:0xea 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 559.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0xcf7e ACTUAL: result:0xcf7e 
+# UVM_INFO @ 589.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 589.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00d7 
+# UVM_INFO @ 589.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0xbf b:0x18 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 649.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00d7 ACTUAL: result:0x00d7 
+# UVM_INFO @ 679.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 679.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00d2 
+# UVM_INFO @ 679.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0xba b:0x68 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 739.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00d2 ACTUAL: result:0x00d2 
+# UVM_INFO @ 769.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 769.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0065 
+# UVM_INFO @ 769.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x35 b:0x30 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 829.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0065 ACTUAL: result:0x0065 
+# UVM_INFO @ 859.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 859.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x99ea 
+# UVM_INFO @ 859.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x4 a:0xc7 b:0xc6 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 919.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x99ea ACTUAL: result:0x99ea 
+# UVM_INFO @ 949.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 949.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0004 
+# UVM_INFO @ 949.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x6f b:0x84 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1009.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0004 ACTUAL: result:0x0004 
+# UVM_INFO @ 1039.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1039.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0003 
+# UVM_INFO @ 1039.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x0b b:0xe7 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1099.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0003 ACTUAL: result:0x0003 
+# UVM_INFO @ 1129.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1129.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0052 
+# UVM_INFO @ 1129.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0x9e b:0xcc 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1189.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0052 ACTUAL: result:0x0052 
+# UVM_INFO @ 1219.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1219.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00dc 
+# UVM_INFO @ 1219.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0x8e b:0x52 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1279.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00dc ACTUAL: result:0x00dc 
+# UVM_INFO @ 1309.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1309.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x2b0c 
+# UVM_INFO @ 1309.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x4 a:0xbe b:0x3a 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1369.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x2b0c ACTUAL: result:0x2b0c 
+# UVM_INFO @ 1399.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1399.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x31ba 
+# UVM_INFO @ 1399.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x4 a:0x5f b:0x86 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1459.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x31ba ACTUAL: result:0x31ba 
+# UVM_INFO @ 1489.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1489.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0040 
+# UVM_INFO @ 1489.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x48 b:0xf3 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1549.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0040 ACTUAL: result:0x0040 
+# UVM_INFO @ 1579.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1579.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0152 
+# UVM_INFO @ 1579.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x8b b:0xc7 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1639.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0152 ACTUAL: result:0x0152 
+# UVM_INFO @ 1669.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1669.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00a8 
+# UVM_INFO @ 1669.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0x4e b:0xe6 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1729.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00a8 ACTUAL: result:0x00a8 
+# UVM_INFO @ 1759.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1759.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00a9 
+# UVM_INFO @ 1759.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x18 b:0x91 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1819.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00a9 ACTUAL: result:0x00a9 
+# UVM_INFO @ 1849.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1849.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0070 
+# UVM_INFO @ 1849.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x70 b:0x78 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1909.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0070 ACTUAL: result:0x0070 
+# UVM_INFO @ 1939.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 1939.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0080 
+# UVM_INFO @ 1939.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0xc0 b:0xb5 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 1999.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0080 ACTUAL: result:0x0080 
+# UVM_INFO @ 2029.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2029.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00c7 
+# UVM_INFO @ 2029.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x11 b:0xb6 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2089.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00c7 ACTUAL: result:0x00c7 
+# UVM_INFO @ 2119.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2119.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0054 
+# UVM_INFO @ 2119.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x33 b:0x21 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2179.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0054 ACTUAL: result:0x0054 
+# UVM_INFO @ 2209.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2209.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0098 
+# UVM_INFO @ 2209.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x1 a:0x62 b:0x36 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2269.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0098 ACTUAL: result:0x0098 
+# UVM_INFO @ 2299.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2299.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0068 
+# UVM_INFO @ 2299.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x2 a:0x6a b:0x7d 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2359.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0068 ACTUAL: result:0x0068 
+# UVM_INFO @ 2389.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2389.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x004c 
+# UVM_INFO @ 2389.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_random_seq [SEQ] Response:op:0x3 a:0xba b:0xf6 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2449.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x004c ACTUAL: result:0x004c 
+# UVM_INFO @ 2479.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2479.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00eb 
+# UVM_INFO @ 2479.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0xe8 b:0x03 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2539.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00eb ACTUAL: result:0x00eb 
+# UVM_INFO @ 2569.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2569.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00c5 
+# UVM_INFO @ 2569.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x3 a:0x82 b:0x47 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2629.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00c5 ACTUAL: result:0x00c5 
+# UVM_INFO @ 2659.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2659.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0060 
+# UVM_INFO @ 2659.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0x47 b:0x19 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2719.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0060 ACTUAL: result:0x0060 
+# UVM_INFO @ 2749.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2749.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0030 
+# UVM_INFO @ 2749.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x2 a:0x7c b:0x30 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2809.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0030 ACTUAL: result:0x0030 
+# UVM_INFO @ 2839.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2839.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00dc 
+# UVM_INFO @ 2839.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x3 a:0xfb b:0x27 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2899.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00dc ACTUAL: result:0x00dc 
+# UVM_INFO @ 2929.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 2929.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00c3 
+# UVM_INFO @ 2929.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x3 a:0xe6 b:0x25 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 2989.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00c3 ACTUAL: result:0x00c3 
+# UVM_INFO @ 3019.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3019.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00a8 
+# UVM_INFO @ 3019.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x2 a:0xa8 b:0xbf 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3079.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00a8 ACTUAL: result:0x00a8 
+# UVM_INFO @ 3109.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3109.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x016f 
+# UVM_INFO @ 3109.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0xbc b:0xb3 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3169.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x016f ACTUAL: result:0x016f 
+# UVM_INFO @ 3199.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3199.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0064 
+# UVM_INFO @ 3199.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x2 a:0xf5 b:0x6c 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3259.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0064 ACTUAL: result:0x0064 
+# UVM_INFO @ 3289.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3289.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x019c 
+# UVM_INFO @ 3289.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0xb5 b:0xe7 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3349.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x019c ACTUAL: result:0x019c 
+# UVM_INFO @ 3379.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3379.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0758 
+# UVM_INFO @ 3379.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0xeb b:0x08 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3439.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0758 ACTUAL: result:0x0758 
+# UVM_INFO @ 3469.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3469.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0058 
+# UVM_INFO @ 3469.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0x05 b:0x53 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3529.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0058 ACTUAL: result:0x0058 
+# UVM_INFO @ 3559.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3559.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0068 
+# UVM_INFO @ 3559.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x2 a:0x6a b:0x7d 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3619.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0068 ACTUAL: result:0x0068 
+# UVM_INFO @ 3649.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3649.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x8022 
+# UVM_INFO @ 3649.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0x8e b:0xe7 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3709.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x8022 ACTUAL: result:0x8022 
+# UVM_INFO @ 3739.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3739.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x29fe 
+# UVM_INFO @ 3739.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0xfa b:0x2b 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3799.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x29fe ACTUAL: result:0x29fe 
+# UVM_INFO @ 3829.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3829.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x785a 
+# UVM_INFO @ 3829.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0xed b:0x82 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3889.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x785a ACTUAL: result:0x785a 
+# UVM_INFO @ 3919.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 3919.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x016a 
+# UVM_INFO @ 3919.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0x7f b:0xeb 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 3979.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x016a ACTUAL: result:0x016a 
+# UVM_INFO @ 4009.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4009.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0xab30 
+# UVM_INFO @ 4009.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0xb0 b:0xf9 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4069.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0xab30 ACTUAL: result:0xab30 
+# UVM_INFO @ 4099.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4099.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0092 
+# UVM_INFO @ 4099.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x3 a:0x2f b:0xbd 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4159.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0092 ACTUAL: result:0x0092 
+# UVM_INFO @ 4189.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4189.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x4f92 
+# UVM_INFO @ 4189.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0x61 b:0xd2 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4249.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x4f92 ACTUAL: result:0x4f92 
+# UVM_INFO @ 4279.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4279.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0033 
+# UVM_INFO @ 4279.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x3 a:0x50 b:0x63 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4339.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0033 ACTUAL: result:0x0033 
+# UVM_INFO @ 4369.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4369.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x01ab 
+# UVM_INFO @ 4369.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0xb4 b:0xf7 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4429.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x01ab ACTUAL: result:0x01ab 
+# UVM_INFO @ 4459.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4459.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x0113 
+# UVM_INFO @ 4459.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0xde b:0x35 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4519.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x0113 ACTUAL: result:0x0113 
+# UVM_INFO @ 4549.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4549.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0x00fb 
+# UVM_INFO @ 4549.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x1 a:0x82 b:0x79 
+# alu_in_driver_bfm : Inside initiate_and_get_response
+# UVM_INFO @ 4609.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0x00fb ACTUAL: result:0x00fb 
+# UVM_INFO @ 4639.000ns: uvm_test_top.environment.alu_pred [PRED] Transaction Received through alu_in_agent_ae
+# UVM_INFO @ 4639.000ns: uvm_test_top.environment.alu_pred [PREDICT] ALU_OUT: result:0xd7a0 
+# UVM_INFO @ 4639.000ns: uvm_test_top.environment.alu_in_agent.sequencer@@alu_in_agent_rand_seq [SEQ] Response:op:0x4 a:0xf0 b:0xe6 
+# UVM_INFO @ 4699.000ns: uvm_test_top.environment.alu_sb [SCBD] MATCH! - EXPECTED: result:0xd7a0 ACTUAL: result:0xd7a0 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 8639.000ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO @ 8639.000ns: uvm_test_top.environment.alu_sb [SCBD] SCOREBOARD_RESULTS:  PREDICTED_TRANSACTIONS=50 MATCHES=50 MISMATCHES=0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  206
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [PRED]    51
+# [PREDICT]    50
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCBD]    51
+# [SEQ]    50
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim_10.4e/win32/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 8639 ns  Iteration: 60  Instance: /hvl_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim_10.4e/win32/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Stopped at C:/questasim_10.4e/win32/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+#  quit -f
+# Saving coverage database on exit...
+# Memory Statistics                         
+#     mem: size after elab (VSZ)                 149.90 Mb
+#     mem: size during sim (VSZ)                 151.00 Mb
+# Elaboration Time                          
+#    elab: wall time                               3.53 s
+#    elab: cpu time                                0.39 s
+# Simulation Time                           
+#     sim: wall time                               0.25 s
+#     sim: cpu time                                0.00 s
+# Coverage Save Time                        
+#    save: wall time                               0.06 s
+#    save: cpu time                                0.02 s
+# Total Time                                
+#   total: wall time                               3.83 s
+#   total: cpu time                                0.41 s
+# 
+# End time: 18:31:19 on May 14,2023, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
