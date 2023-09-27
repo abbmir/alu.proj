@@ -38,11 +38,11 @@ uvmf_testlist:
     - testbench: alu
 # pragma uvmf custom regression_suite begin
     - name: test_top
-      repeat: 300
+      repeat: 3
     - name: example_derived_test
-      repeat: 300
+      repeat: 3
     - name: register_test
-      repeat: 300
+      repeat: 3
 # pragma uvmf custom regression_suite end
 
 

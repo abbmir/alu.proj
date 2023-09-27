@@ -1,0 +1,408 @@
+test -e work || vlib work 
+echo "Compile your verilog DUT here"
+Compile your verilog DUT here
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../rtl/verilog/alu.v
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:57 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../rtl/verilog/alu.v 
+-- Compiling module alu
+
+Top level modules:
+	alu
+End time: 11:01:57 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE   +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg/uvmf_base_pkg_filelist_hdl.f
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:58 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg/uvmf_base_pkg_filelist_hdl.f 
+-- Compiling package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:01:58 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE   +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg/uvmf_base_pkg_filelist_hvl.f
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:58 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/UVMF_2022.3/uvmf_base_pkg/uvmf_base_pkg_filelist_hvl.f 
+-- Compiling package uvmf_base_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:01:58 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_hdl.f 
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:58 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_hdl.f 
+-- Compiling package alu_in_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:01:58 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_hvl.f 
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:58 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_hvl.f 
+-- Compiling package alu_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package alu_in_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:01:59 on Sep 11,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_xrtl.f  
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:01:59 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/alu_in_filelist_xrtl.f 
+-- Compiling interface alu_in_if
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/src/alu_in_if.sv(29): (vlog-13233) 'alu_in_if_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_in_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_in_pkg_hdl
+-- Compiling interface alu_in_if
+-- Compiling interface alu_in_monitor_bfm
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/src/alu_in_monitor_bfm.sv(31): (vlog-13233) 'alu_in_monitor_bfm_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_in_monitor_bfm_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Compiling interface alu_in_monitor_bfm
+-- Compiling interface alu_in_driver_bfm
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_in_pkg/src/alu_in_driver_bfm.sv(56): (vlog-13233) 'alu_in_driver_bfm_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_in_driver_bfm_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_in_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Compiling interface alu_in_driver_bfm
+
+Top level modules:
+	--none--
+End time: 11:01:59 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 3
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_hdl.f 
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:00 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_hdl.f 
+-- Compiling package alu_out_pkg_hdl
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:02:00 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_hvl.f 
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:00 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_hvl.f 
+-- Compiling package alu_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package uvmf_base_pkg
+-- Importing package alu_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:02:00 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_xrtl.f  
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:00 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/alu_out_filelist_xrtl.f 
+-- Compiling interface alu_out_if
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/src/alu_out_if.sv(25): (vlog-13233) 'alu_out_if_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_out_if_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_out_pkg_hdl
+-- Compiling interface alu_out_if
+-- Compiling interface alu_out_monitor_bfm
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/src/alu_out_monitor_bfm.sv(31): (vlog-13233) 'alu_out_monitor_bfm_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_out_monitor_bfm_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Compiling interface alu_out_monitor_bfm
+-- Compiling interface alu_out_driver_bfm
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/interface_packages/alu_out_pkg/src/alu_out_driver_bfm.sv(56): (vlog-13233) 'alu_out_driver_bfm_sv_unit' already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_out_driver_bfm_sv_unit
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Compiling interface alu_out_driver_bfm
+
+Top level modules:
+	--none--
+End time: 11:02:01 on Sep 11,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 3
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/environment_packages/alu_env_pkg /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/environment_packages/alu_env_pkg/alu_env_pkg.sv
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:01 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/environment_packages/alu_env_pkg" C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../../../verification_ip/environment_packages/alu_env_pkg/alu_env_pkg.sv 
+-- Compiling package alu_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:02:01 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/parameters /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/parameters/alu_parameters_pkg.sv
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:02 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/parameters" C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/parameters/alu_parameters_pkg.sv 
+-- Compiling package alu_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+
+Top level modules:
+	--none--
+End time: 11:02:02 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/sequences /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/sequences/alu_sequences_pkg.sv
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:02 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/sequences" C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/sequences/alu_sequences_pkg.sv 
+-- Compiling package alu_sequences_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_parameters_pkg
+-- Importing package alu_env_pkg
+
+Top level modules:
+	--none--
+End time: 11:02:02 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/tests /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/tests/alu_tests_pkg.sv
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:02 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/tests" C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/tests/alu_tests_pkg.sv 
+-- Compiling package alu_tests_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_parameters_pkg
+-- Importing package alu_env_pkg
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_sequences_pkg
+
+Top level modules:
+	--none--
+End time: 11:02:03 on Sep 11,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/questa_mvc_src/sv +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/top_filelist_hvl.f
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:03 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/questa_mvc_src/sv" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/top_filelist_hvl.f 
+-- Compiling module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package alu_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_parameters_pkg
+-- Importing package alu_env_pkg
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_sequences_pkg
+
+Top level modules:
+	hvl_top
+End time: 11:02:03 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog -sv -suppress 2223 -suppress 2286    +define+UVM_REPORT_DISABLE_FILE_LINE +define+UVM_REPORT_DISABLE_FILE_LINE  +incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench -F /c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/top_filelist_hdl.f
+QuestaSim vlog 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:03 on Sep 11,2023
+vlog -sv -suppress 2223 -suppress 2286 "+define+UVM_REPORT_DISABLE_FILE_LINE" "+define+UVM_REPORT_DISABLE_FILE_LINE" "+incdir+/c/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench" -F C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/top_filelist_hdl.f 
+-- Compiling module hdl_top
+-- Importing package alu_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	hdl_top
+End time: 11:02:03 on Sep 11,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vopt      hvl_top hdl_top    -o optimized_batch_top_tb
+QuestaSim vopt 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:04 on Sep 11,2023
+vopt hvl_top hdl_top -o optimized_batch_top_tb 
+
+Top level modules:
+	hvl_top
+	hdl_top
+
+Analyzing design...
+-- Loading module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package alu_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_parameters_pkg
+-- Importing package alu_env_pkg
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_sequences_pkg
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading module hdl_top
+-- Loading interface alu_in_if
+-- Loading interface alu_out_if
+-- Loading interface alu_in_monitor_bfm
+-- Loading interface alu_out_monitor_bfm
+-- Loading interface alu_in_driver_bfm
+-- Loading module alu
+Optimizing 32 design-units (inlining 1/2 module instances, 0/0 UDP instances):
+-- Inlining interface alu_in_if(fast__2)
+-- Inlining interface alu_out_if(fast__2)
+-- Inlining module alu(fast)
+-- Optimizing module hdl_top(fast)
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'alu_in_agent_bus'.  Expected 8, found 2.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'b'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'a'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'op'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'ready'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'alu_rst'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2685) [TFMPC] - Too few port connections for 'alu_out_agent_bus'.  Expected 4, found 2.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'result'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'done'.
+-- Optimizing interface alu_in_driver_bfm(fast__1)
+-- Optimizing interface alu_in_monitor_bfm(fast__1)
+-- Optimizing interface alu_out_monitor_bfm(fast__1)
+-- Optimizing interface alu_in_if(fast__2)
+-- Optimizing interface alu_out_if(fast__2)
+-- Optimizing module hvl_top(fast)
+-- Optimizing package alu_out_pkg(fast)
+-- Optimizing package alu_in_pkg(fast)
+-- Optimizing package alu_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package alu_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package alu_in_driver_bfm_sv_unit(fast)
+-- Optimizing interface alu_in_if(fast)
+-- Optimizing interface alu_out_if(fast)
+-- Optimizing interface alu_in_if(fast__1)
+-- Optimizing package alu_out_if_sv_unit(fast)
+-- Optimizing interface alu_out_if(fast__1)
+-- Optimizing interface alu_out_monitor_bfm(fast)
+-- Optimizing interface alu_in_driver_bfm(fast)
+-- Optimizing package alu_parameters_pkg(fast)
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package alu_env_pkg(fast)
+-- Optimizing package alu_sequences_pkg(fast)
+-- Optimizing package alu_tests_pkg(fast)
+-- Optimizing package alu_in_if_sv_unit(fast)
+-- Optimizing package alu_in_pkg_hdl(fast)
+-- Optimizing package uvmf_base_pkg(fast)
+-- Optimizing package alu_out_pkg_hdl(fast)
+-- Optimizing package uvmf_base_pkg_hdl(fast)
+-- Optimizing interface alu_in_monitor_bfm(fast)
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+Optimized design name is optimized_batch_top_tb
+End time: 11:02:06 on Sep 11,2023, Elapsed time: 0:00:02
+Errors: 0, Warnings: 10
+vopt    +acc   hvl_top hdl_top    -o optimized_debug_top_tb
+QuestaSim vopt 10.4e Compiler 2016.04 Apr  9 2016
+Start time: 11:02:06 on Sep 11,2023
+vopt "+acc" hvl_top hdl_top -o optimized_debug_top_tb 
+
+Top level modules:
+	hvl_top
+	hdl_top
+
+Analyzing design...
+-- Loading module hvl_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package alu_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package alu_parameters_pkg
+-- Importing package alu_env_pkg
+-- Importing package alu_in_pkg
+-- Importing package alu_in_pkg_hdl
+-- Importing package alu_out_pkg
+-- Importing package alu_out_pkg_hdl
+-- Importing package alu_sequences_pkg
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading module hdl_top
+-- Loading interface alu_in_if
+-- Loading interface alu_out_if
+-- Loading interface alu_in_monitor_bfm
+-- Loading interface alu_out_monitor_bfm
+-- Loading interface alu_in_driver_bfm
+-- Loading module alu
+Optimizing 32 design-units (inlining 0/2 module instances, 0/0 UDP instances):
+-- Optimizing interface alu_in_driver_bfm(fast__1)
+-- Optimizing interface alu_in_monitor_bfm(fast__1)
+-- Optimizing module alu(fast)
+-- Optimizing interface alu_out_monitor_bfm(fast__1)
+-- Optimizing module hdl_top(fast)
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'alu_in_agent_bus'.  Expected 8, found 2.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'b'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'a'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'op'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'valid'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'ready'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'alu_rst'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2685) [TFMPC] - Too few port connections for 'alu_out_agent_bus'.  Expected 4, found 2.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'result'.
+** Warning: C:/Users/abbmi/OneDrive/Documents/Abbas/proj/alu.proj/uvc/project_benches/alu/sim/../tb/testbench/hdl_top.sv(64): (vopt-2718) [TFMPC] - Missing connection for port 'done'.
+-- Optimizing interface alu_in_if(fast__2)
+-- Optimizing interface alu_out_if(fast__2)
+-- Optimizing module hvl_top(fast)
+-- Optimizing package alu_in_pkg(fast)
+-- Optimizing package alu_in_monitor_bfm_sv_unit(fast)
+-- Optimizing package alu_out_monitor_bfm_sv_unit(fast)
+-- Optimizing package alu_in_driver_bfm_sv_unit(fast)
+-- Optimizing interface alu_in_if(fast)
+-- Optimizing interface alu_out_if(fast)
+-- Optimizing interface alu_in_if(fast__1)
+-- Optimizing package alu_out_pkg(fast)
+-- Optimizing interface alu_out_if(fast__1)
+-- Optimizing interface alu_out_monitor_bfm(fast)
+-- Optimizing interface alu_in_driver_bfm(fast)
+-- Optimizing package alu_parameters_pkg(fast)
+-- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+-- Optimizing package alu_env_pkg(fast)
+-- Optimizing package alu_sequences_pkg(fast)
+-- Optimizing package alu_tests_pkg(fast)
+-- Optimizing package alu_out_if_sv_unit(fast)
+-- Optimizing package alu_in_if_sv_unit(fast)
+-- Optimizing package alu_in_pkg_hdl(fast)
+-- Optimizing package uvmf_base_pkg(fast)
+-- Optimizing package alu_out_pkg_hdl(fast)
+-- Optimizing package uvmf_base_pkg_hdl(fast)
+-- Optimizing interface alu_in_monitor_bfm(fast)
+-- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+Optimized design name is optimized_debug_top_tb
+End time: 11:02:07 on Sep 11,2023, Elapsed time: 0:00:01
+Errors: 0, Warnings: 10
+vsim -i    -sv_seed random +UVM_TESTNAME=test_top  -permit_unmatched_virtual_intf +notimingchecks -suppress 8887 -solvefaildebug -solvefailtestcase  -assertdebug -uvmcontrol=all +uvm_set_config_int=*,enable_transaction_viewing,1 -classdebug -title test_top -msgmode tran   -do " set NoQuitOnFinish 1; run 0; do wave.do "  optimized_debug_top_tb 
+Reading C:/questasim_10.4e/tcl/vsim/pref.tcl

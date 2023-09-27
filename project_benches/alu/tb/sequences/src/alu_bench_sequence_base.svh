@@ -98,7 +98,7 @@ rand alu_env_sequence_base_t alu_env_seq;
     join_none
     // Start INITIATOR sequences here
     fork
-      repeat (25) alu_in_agent_random_seq.start(alu_in_agent_sequencer);
+      repeat (250) alu_in_agent_random_seq.start(alu_in_agent_sequencer);
     join
 
 alu_env_seq.start(top_configuration.vsqr);
@@ -107,8 +107,8 @@ alu_env_seq.start(top_configuration.vsqr);
     // the last sequence to allow for the last sequence item to flow 
     // through the design.
     fork
-      alu_in_agent_config.wait_for_num_clocks(400);
-      alu_out_agent_config.wait_for_num_clocks(400);
+      alu_in_agent_config.wait_for_num_clocks(4000);
+      alu_out_agent_config.wait_for_num_clocks(4000);
     join
 
     // pragma uvmf custom body end
